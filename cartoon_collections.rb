@@ -9,7 +9,7 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  arr.any?{|word| word.length == 4} ? true : false 
+  arr.any?{|word| word.length > 4} ? true : false 
 end
 
 def find_the_cheese(arr)
